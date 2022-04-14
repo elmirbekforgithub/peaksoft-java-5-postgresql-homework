@@ -2,7 +2,7 @@ create table cars (
 	id SERIAL PRIMARY KEY,
 	brand VARCHAR(50) NOT NULL,
 	model VARCHAR(50) NOT NULL,
-	year_of_issue VARCHAR(50) NOT NULL,
+	year_of_issue int NOT NULL,
 	price DECIMAL(8,2) NOT NULL ,
 	color VARCHAR(50) NOT NULL
 );
